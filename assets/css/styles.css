@@ -98,6 +98,7 @@ img{
 .section{
   padding-top: 3rem;
   padding-bottom: 2rem;
+  /* background: url("../img/headshot.jpeg"); */
 }
 
 /*===== LAYOUT =====*/
@@ -116,7 +117,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: rgb(138, 54, 54);
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -142,13 +143,15 @@ img{
 }
 .nav__item{
   margin-bottom: var(--mb-4);
+  color: #fff;
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: rgb(133, 107, 107);
 }
 .nav__link:hover{
   position: relative;
+  color: #fff;
 }
 .nav__link:hover::after{
   position: absolute;
@@ -161,6 +164,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  color: aqua;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -302,6 +306,9 @@ img{
 }
 .skills__python{
   width: 70%;
+}
+.skills__android{
+  width: 65%;
 }
 .skills__img{
   border-radius: .5rem;
